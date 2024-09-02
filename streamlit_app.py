@@ -252,8 +252,3 @@ def CargaDosis():
 if __name__ == "__main__":
     CargaDosis()
     
-            label=f'{country} GDP',
-            value=f'{last_gdp:,.0f}B',
-            delta=growth,
-            delta_color=delta_color
-        )
