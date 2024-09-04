@@ -31,7 +31,7 @@ def CargaDosis():
                                                     "Dosis por Hectárea",
                                                     "Persona Recetó","Observaciones"])
         
-    st.title(f"ANIBAL BARBEROOOOO")
+    st.title(f"ANIBAL BARBERO")
     #st.checkbox(f"A")
     
     
