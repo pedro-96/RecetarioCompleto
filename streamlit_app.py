@@ -209,7 +209,7 @@ def CargaDosis():
         #abrirr_imagen = Image.open(st.session_state['miImage'])
         st.image(st.session_state['miImage'], caption="Imagen capturada", use_column_width=True)
         
-        fileName = f'Imagen_Para_{camp1}_Fecha_{FechaActual}_lotes:{lote}{st.session_state['miImage'].name}'
+        fileName = f'Imagen_Para_{camp1}_Fecha_{FechaActual}_lotes:{lote}{st.session_state["miImage"].name}'
         #saveButton = st.button('guardar imagen')
         
         
