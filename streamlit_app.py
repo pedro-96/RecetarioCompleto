@@ -7,13 +7,13 @@ import time
 import gspread
 from google.oauth2.service_account import Credentials
 
-from io import BytesIO
-from PIL import Image
-import base64
+#from io import BytesIO
+#from PIL import Image
+#import base64
 import xlsxwriter
 
-from openpyxl import Workbook
-from openpyxl.drawing.image import Image
+#from openpyxl import Workbook
+#from openpyxl.drawing.image import Image
 
 ### funcion descarga de excel
 def descargar_excel(dataframe):
@@ -33,12 +33,12 @@ def descargar_excel(dataframe):
     return processed_data
 
 ### función para convertir imagen a base64
-def convertir_imagen_a_base64(img):
-    buffered = BytesIO()
+#def convertir_imagen_a_base64(img):
+    #buffered = BytesIO()
     #img.save(buffered, format="PNG")
-    buffered.seek(0)
+    #buffered.seek(0)
     #base64.b64encode(buffered.getvalue()).decode()
-    return base64.b64encode(buffered.getvalue()).decode()
+    #return base64.b64encode(buffered.getvalue()).decode()
 
 
 ##### contrucción de la APP
