@@ -7,7 +7,7 @@ import time
 import gspread
 from google.oauth2.service_account import Credentials
 
-#from io import BytesIO
+from io import BytesIO
 #from PIL import Image
 #import base64
 import xlsxwriter
