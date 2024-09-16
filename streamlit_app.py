@@ -85,7 +85,7 @@ def CargaDosis():
     proveedor = ["Cotagro","Depetris","Dreyfus"]
     
     
-    unidad_de_medida = ["Litros","Militros","Kilos","Gramos"]
+    unidad_de_medida = ["Litros","Mililitros","Kilos","Gramos"]
     
     lotesConHectareas = {
             "Gobbi": {
